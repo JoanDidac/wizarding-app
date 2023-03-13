@@ -31,7 +31,7 @@ const HouseDetails = () => {
         </div>
       ) : (
         <>
-          <button className="back-home-link2"><a to="/"> Back home </a></button>  
+          <button className="back-home-link2"><a href="/"> Back home </a></button>  
           <h2>{house.name}</h2>
           <p>Founded by {house.founder}</p>
           <p>Colors: {house.houseColours}</p>
